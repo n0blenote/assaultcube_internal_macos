@@ -1,0 +1,10 @@
+[package]
+name = "macos_itrn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2.176"
+
+[lib]
+crate-type = ["cdylib"]
